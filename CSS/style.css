@@ -1,4 +1,5 @@
 *{
+
   padding: 0%;
   margin: 0%;
 }
@@ -86,7 +87,7 @@ a.dropdown-item:hover{
   color: #104ca0;
 }
 hr{
-  border: 2px solid green;
+  border: 1px solid green;
   width: 100px;
   display: inline-block;
   margin:auto 15px;
@@ -99,4 +100,30 @@ hr{
 .intro-paragraph p{
  text-align: justify;
  
+}
+.statistics{
+  margin:80px auto 0px auto;
+  background-color:#2755e9 ;
+  padding: 80px;
+  display: flex;
+}
+.statistic-image{
+  width: 50px;
+  margin: auto 50px;
+  
+}
+h1.statistic-heading{
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 3em;
+}
+h5{
+  font-size: 1em;
+  color: white;
+  font-weight: 700;
+}
+span{
+  color: rgb(20, 230, 20);
+  font-weight: 700;
+  font-size: 1em;
 }
