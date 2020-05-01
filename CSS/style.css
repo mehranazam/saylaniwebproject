@@ -1,0 +1,102 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+.main-social-containter{
+  background-color: #316dc3;
+  width: 100%;
+ padding: 5px 5px 5px 5px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+i.social-icon{
+  color: white;
+  padding: 10px;
+}
+i.social-icon:hover{
+  background-color:#104ca0 ;
+}
+p.header-paragraph{
+  color: white;
+  font-size: 0.9em;
+  text-align: center;
+  margin: 5px;
+}
+.donate-button{
+  font-size: 12px;
+  padding: 5px;
+}
+Button{
+padding: 5px 10px;
+}
+.logo-nav{
+  background-color: #f7f8fa;
+}
+.logo-image{
+  width: 200px;
+}
+.row-logo-nav{
+  padding:10px 5px;
+}
+.nav-bar{
+  background-color: #f7f8fa;
+ 
+}
+.active{
+  border-radius: 40px;
+  background-color: #316dc3;
+  color: white !important;
+}
+ul li {
+  padding: 0 5px;
+}
+ul li a{
+  font-weight: 500;
+
+}
+a.dropdown-item:hover{
+  border-radius: 40px;
+  background-color: #316dc3;
+  color: white !important;
+}
+a.dropdown-item:hover{
+  background-color:#316dc3;
+  border-radius: 0px;
+  padding-left: 30px;
+}
+.slider-row{
+  background-color:#316dc3 ;
+  margin: 10px auto;
+  color: white;
+ padding: 5px 0px;
+}
+.intro-heading{
+  margin: auto;
+}
+.intro-heading h1{
+  margin: 50px auto 5px auto;
+  text-transform: uppercase;
+  font-family: 'Merriweather', serif;
+  color: green;
+  font-weight: 600;
+  text-align: center;
+}
+.intro-heading span{
+  color: #104ca0;
+}
+hr{
+  border: 2px solid green;
+  width: 100px;
+  display: inline-block;
+  margin:auto 15px;
+}
+.favicon{
+  display: flex;
+  justify-content: space-around;
+  margin: auto auto 20px auto;
+}
+.intro-paragraph p{
+ text-align: justify;
+ 
+}
