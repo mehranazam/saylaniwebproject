@@ -1,8 +1,9 @@
 *{
-
+  
   padding: 0%;
   margin: 0%;
 }
+
 .main-social-containter{
   background-color: #316dc3;
   width: 100%;
@@ -126,4 +127,10 @@ span{
   color: rgb(20, 230, 20);
   font-weight: 700;
   font-size: 1em;
+}
+h5.service-heading{
+  color:#316DC3 ;
+  font-weight: 600;
+  font-family: 'Merriweather', serif;
+  padding-top: 20px;
 }
