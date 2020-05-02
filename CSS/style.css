@@ -1,3 +1,4 @@
+@import "imports.css";
 *{
   
   padding: 0%;
@@ -133,4 +134,26 @@ h5.service-heading{
   font-weight: 600;
   font-family: 'Merriweather', serif;
   padding-top: 20px;
+}
+.container h3{
+  padding-top: 70px;
+  font-size: 1.5em;
+  color: #316DC3;
+  font-weight: 700;
+}
+.line-bottom {
+  position: relative;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+
+}
+
+.service-span{
+  margin-left: 30px;
+  color: #316DC3;
+  font-size: 1.2em;
+}
+.image-size{
+  width: 300px;
+  height: 200px;
 }
