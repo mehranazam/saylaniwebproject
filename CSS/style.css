@@ -1,4 +1,4 @@
-@import "imports.css";
+
 *{
   
   padding: 0%;
@@ -51,12 +51,14 @@ padding: 5px 10px;
   background-color: #316dc3;
   color: white !important;
 }
-ul li {
-  padding: 0 5px;
-}
-ul li a{
-  font-weight: 500;
 
+
+.nav-link:hover{
+  background-color: #316DC3;
+  border-radius:40px;
+}
+a.dropdown-toggle:hover{
+  color: white !important;
 }
 a.dropdown-item:hover{
   border-radius: 40px;
@@ -141,11 +143,34 @@ h5.service-heading{
   color: #316DC3;
   font-weight: 700;
 }
+.services-divs{
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #f7f8fa;
+  background-color: #f7f8fa;
+}
 .line-bottom {
   position: relative;
   margin-bottom: 25px;
   padding-bottom: 10px;
 
+}
+
+.media-body{
+  padding-left:20px;
+}
+.padding-bottom{
+  padding-bottom: 30px;
+}
+.border-bottom{
+  border-bottom:5px solid green;
+}
+.services-heading4{
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  margin-left: 5px;
+  font-weight:400px;
 }
 
 .service-span{
@@ -156,4 +181,20 @@ h5.service-heading{
 .image-size{
   width: 300px;
   height: 200px;
+}
+.footer-address{
+  margin: 0px;
+  padding: 0px 10px;
+}
+.footer-icons{
+  margin-right: 5px;
+  color: green;
+}
+
+.doing-box{
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 30px;
 }
