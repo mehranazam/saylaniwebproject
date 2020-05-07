@@ -1,6 +1,6 @@
 
 *{
-  
+  box-sizing: border-box;
   padding: 0%;
   margin: 0%;
 }
@@ -181,6 +181,7 @@ h5.service-heading{
 .image-size{
   width: 300px;
   height: 200px;
+  margin: 5px;
 }
 .footer-address{
   margin: 0px;
@@ -197,4 +198,34 @@ h5.service-heading{
   background-color: white;
   padding: 30px;
   margin-bottom: 30px;
+}
+.footer-container{
+  background-color: #333333;
+  padding: 70px 0px 40px 0px;
+}
+.footer-main{
+  margin-top: 200px;
+  background-color: #333333;
+  color: white;
+}
+.social-icon-list li{
+  list-style: none;
+  float: left;
+  padding:10px;
+  border-radius: 50%;
+  background-color: #2755e9;
+  margin:5px;
+  font-size: 1em;
+}
+.social-footer-icons{
+  margin-left: 20px;
+}
+.footer-row{
+  width: inherit;
+}
+.copyright-foot{
+  background-color: #2755e9;
+  color: white;
+  padding-top: 10px;
+  font-size: 0.8em;
 }
